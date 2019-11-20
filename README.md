@@ -23,13 +23,17 @@ This repository contains some code experiments and their corresponding notes and
 
 **3D Ken Burns Effect from a Single Image [[September 12, 2019]](https://arxiv.org/abs/1909.05483)**
 
+Simply put, this piece of research proposes an image transformation pipeline to convert a 2D image into a depthmap for the objects, before using the depthmap to generate '3D angles' to the objects. This technique can turn still 2D images into convincing 3D videos resembling a drone-shot video. With a little bit of help from [Ngrok](https://dashboard.ngrok.com/get-started) for port-forwarding, the [web-app](https://github.com/sniklaus/3d-ken-burns) can be run locally with a connection to a CodeLab GPU runtime. Although artefacts in the output videos are easily observable when pushing the boundaries, the results on some of my own images (below) will always blow my mind. 
+
+On the left is the original 2D image, whereas the resulting gif is shown on the right.
+
 <img src="docs/3dkenburns1.jpg" width="350"><img src="docs/3dkenburns1.gif" width="350">
 
 <img src="docs/3dkenburns2.jpg" width="350"><img src="docs/3dkenburns2.gif" width="350">
 
 **StyleGAN: A Style-Based Generator Architecture for Generative Adversarial Networks [[December 12, 2018]](http://stylegan.xyz/paper)**
 
-Using the StyleGAN TensorFlow implementation, playing around with the latent vectorspace in the direction of age is easy. The predictions regarding 'me from the past' and 'future me' are pretty convincing, although clear artefacts are especially visible in hair.
+Using the [StyleGAN TensorFlow implementation](https://github.com/NVlabs/stylegan), playing around with the latent vectorspace in the direction of age is easy. The predictions regarding 'me from the past' and 'future me' are pretty convincing, although clear artefacts are especially visible in hair.
 
 ![](docs/stylegan.gif)
 
