@@ -25,9 +25,7 @@ This repository contains some code experiments and their corresponding notes and
 
 I wanted to learn Swift to better understand how to serve edge devices when developing APIs or web-applications. Going through the stringent publishing process on the iOS app store proved to be useful in learning what reviewers look for and what makes a solid app. In addition, I got an ad-free workout timer out of it that I've been using on a daily basis!
 
-<img src="docs/bfit_1.png" height="250">
-<img src="docs/bfit_2.png" height="250">
-<img src="docs/bfit_3.png" height="250">
+<img src="docs/bfit_1.png" height="250"><img src="docs/bfit_2.png" height="250"><img src="docs/bfit_3.png" height="250">
 
 
 **3D Ken Burns Effect from a Single Image [[September 12, 2019]](https://arxiv.org/abs/1909.05483)**
