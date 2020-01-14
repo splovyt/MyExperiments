@@ -21,6 +21,15 @@ This repository contains some code experiments and their corresponding notes and
 
 ## Experiments
 
+**Publish a Swift app to the iOS App Store [[January, 2020]](https://apps.apple.com/us/app/bs-free-interval-timer/id1492758790)**
+
+I wanted to learn Swift to better understand how to serve edge devices when developing APIs or web-applications. Going through the stringent publishing process on the iOS app store proved to be useful in learning what reviewers look for and what makes a solid app. In addition, I got an ad-free workout timer out of it that I've been using on a daily basis!
+
+<img src="docs/bfit_1.png" height="250">
+<img src="docs/bfit_2.png" height="250">
+<img src="docs/bfit_3.png" height="250">
+
+
 **3D Ken Burns Effect from a Single Image [[September 12, 2019]](https://arxiv.org/abs/1909.05483)**
 
 Simply put, this piece of research proposes an image transformation pipeline to convert a 2D image into a depthmap for the objects, before using the depthmap to generate '3D angles' to the objects. This technique can turn still 2D images into convincing 3D videos resembling a drone-shot video. With a little bit of help from [Ngrok](https://dashboard.ngrok.com/get-started) for port-forwarding, the [web-app](https://github.com/sniklaus/3d-ken-burns) can be run locally with a connection to a CodeLab GPU runtime. Although artefacts in the output videos are easily observable when pushing the boundaries, the results on some of my own images (below) will always blow my mind. 
