@@ -44,3 +44,9 @@ Using the [StyleGAN TensorFlow implementation](https://github.com/NVlabs/stylega
 
 ![](docs/stylegan.gif)
 
+
+**3D-printed Finger Cast [June, 2017]**
+
+I severely damaged the ligament in my right ring finger in a snowboarding accident. Due to the swelling around my metacarpophalangeal joint, I was unable to bend the finger for months. Any attempt at doing so would significantly increase the recovery time. With a surfing trip in the near future, I figured I required a cast. This cast needed to prevent any external (water) pressure from bending my finger, in addition to obstructing my own reflex to bend the finger. For this reason, I 3D printed a cast that fits my finger to the millimeter. After taking the measurements on my finger, the cast was modeled to fit around the joint (using Blender). I designed holes in the side of the cast to let my finger breathe, accommodate some swelling, and save on 3D printing costs. Finally, the printing itself was outsourced. Upon receiving the cast, it slid right into place and I used a waterproof bandage to keep it into place. The joint has fully recovered since!
+
+<img src="docs/3d_cast.png">
